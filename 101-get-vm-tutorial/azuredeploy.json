@@ -41,8 +41,8 @@
         }
     },
     "variables": {
-        "runbookName": "Get-AzureVMTutorial",
-        "scriptUri": "https://raw.githubusercontent.com/azureautomation/automation-packs/master/101-get-vm-tutorial/Runbooks/Get-AzureVMTutorial.ps1",
+        "runbookName": "TestConnection",
+        "scriptUri": "https://raw.githubusercontent.com/pychuang/automation-packs/master/101-get-vm-tutorial/Runbooks/TestConnection.ps1",
         "runbookDescription": "Authenticates to Azure and lists all the Azure V1 VMs",
         "credentialName": "DefaultAzureCredential",
         "sku": "Free"
