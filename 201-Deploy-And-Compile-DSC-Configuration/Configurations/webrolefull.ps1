@@ -1,6 +1,8 @@
 Configuration webrolefull {
 
     $features = @(
+        @{Name = "SMTP-Server"; Ensure = "Present"},
+        @{Name = "Web-WMI"; Ensure = "Present"},
         @{Name = "Web-Server"; Ensure = "Present"},
         @{Name = "Web-WebServer"; Ensure = "Present"},
         @{Name = "Web-Common-http"; Ensure = "Present"},
